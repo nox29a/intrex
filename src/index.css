@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-slate-200 font-primary text-primary text-xl;
+    @apply bg-black font-primary text-white;
   }
   .section {
     @apply pt-[100px] pb-[0] lg:py-[100px];
@@ -21,20 +21,5 @@
   .btn {
     @apply py-4 px-7 text-lg font-medium text-white flex items-center justify-center hover:bg-accent-hover transition-all shadow-xl cursor-pointer max-w-[260px];
   }
-  .backface-custom {
-    color: white;
-    -webkit-perspective: 0;
- 
-    perspective: 0;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden;
-    visibility:visible;
-    backface-visibility: hidden;
-  }
-  .transform-custom {
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-  }
+
 }

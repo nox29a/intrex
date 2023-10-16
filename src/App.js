@@ -1,22 +1,20 @@
 import React from 'react';
-import About from './components/About';
+import Reservation from './components/Reservation';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Certification from './components/Certification';
+import Map from './components/Map';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
-import Skills from './components/Skills';
+import Order from './components/Order';
 
 const App = () => {
   return <div className='overflow-hidden'>
     <Header />
     <Hero />
-    <About />
-    <Skills />
+    <Order />
+    <Reservation />
     <Portfolio />
-    <Certification />
-    <Contact />
+    <Map />
     <Footer />
   </div>;
 };
