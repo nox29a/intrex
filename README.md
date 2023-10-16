@@ -1,5 +1,5 @@
-# Source code for my resume page
+# Source code for this page
 
 ## Website link
 
-https://react-resume-rose.vercel.app/
+https://fornirossi.vercel.app/
