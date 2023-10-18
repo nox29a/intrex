@@ -1,19 +1,19 @@
 import React from 'react';
-import Reservation from './components/Newsletter';
+import Solutions from './components/Solutions';
 import Header from './components/Header';
-import Portfolio from './components/Portfolio';
+import About from './components/About';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
-import Order from './components/Order';
+import Category from './components/Category';
 
 const App = () => {
   return <div className='overflow-hidden'>
     <Header />
     <Hero />
-    <Order />
-
-    <Portfolio />
+    <Category />
+    <About />
+    <Solutions/>
     <Newsletter />
     <Footer />
   </div>;

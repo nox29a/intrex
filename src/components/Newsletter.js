@@ -3,7 +3,7 @@ import React from 'react';
 
 const Newsletter = () => {
   return (
-  <div id="Newsletter" className='flex bg-red-600  items-center'>
+  <div id="Newsletter" className='flex bg-red-600  items-center text-white'>
     <div className='w-1/2 text-center'>
       <div className='text-xl m-3'>Dołącz do naszego Newslettera!</div>
       <div>Możesz zrezygnować w każdej chwili</div>

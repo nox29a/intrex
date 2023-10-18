@@ -4,7 +4,7 @@ import logo from '../img/logo.svg';
 import {BsBook, BsFillRocketTakeoffFill, BsFillTelephoneFill, BsBank2} from 'react-icons/bs';
 const Header = () => {
   return (
-    <header className=' bg-slate-800'>
+    <header className=' bg-slate-800 text-white'>
     <div className='bg-red-600 h-10 pl-20 items-center flex text-xs'><div className=' border-r pr-4 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>NEWS</div><div className='pl-6'>
 Drukarki Domino optymalne do kodowania jaj zgodnie z Moba</div></div>
     <div className='flex justify-between mx-40 my-2  p-2'>
