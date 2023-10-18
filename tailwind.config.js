@@ -28,8 +28,7 @@ module.exports = {
         body: '#F8C7B6',
       },
       backgroundImage: {
-        hero: "url('./img/bg-hero.png')",
-        map: "url('./img/map-bg.png')",
+       
 
       },
       keyframes: {

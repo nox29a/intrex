@@ -1,8 +1,8 @@
 import React from 'react';
-import Reservation from './components/Reservation';
+import Reservation from './components/Newsletter';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
-import Map from './components/Map';
+import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Order from './components/Order';
@@ -12,9 +12,9 @@ const App = () => {
     <Header />
     <Hero />
     <Order />
-    <Reservation />
+
     <Portfolio />
-    <Map />
+    <Newsletter />
     <Footer />
   </div>;
 };
