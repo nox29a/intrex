@@ -6,6 +6,8 @@ import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Category from './components/Category';
+import History from './components/History';
+
 
 const App = () => {
   return <div className='overflow-hidden'>
@@ -14,6 +16,7 @@ const App = () => {
     <Category />
     <About />
     <Solutions/>
+    <History/>
     <Newsletter />
     <Footer />
   </div>;
