@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-<div id="Hero" className='h-screen px-[500px] pt-40 text-center bg-black text-white'>
+<div id="Hero" className='h-screen px-[500px] pt-40 text-center bg-hero text-white'>
     <h1 className='text-2xl font-semibold'>Intrex - Twój partner w systemach znakujących i etykietujących</h1>
     <p className='text-xs'>Projektujemy, wdrażamy, produkujemy systemy etykietujące, znakujące i nie tylko. Skutecznie wspieramy linie produkcyjne najbardziej wymagających firm z całego świata i co najważniejsze, otaczamy naszych klientów zaawansowaną opieką.</p>
     <div className='flex justify-between mx-20'>
@@ -13,6 +13,7 @@ const Hero = () => {
           Kontakt
       </button>
     </div>
+
 </div>
     );
 };

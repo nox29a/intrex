@@ -38,7 +38,7 @@ const MainSlider = () => {
 
   return (
   <Swiper
-    modules={[Autoplay, Pagination]}
+    modules={[Autoplay]}
       className=''
       slidesPerView={3}
       spaceBetween={0}

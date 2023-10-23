@@ -28,8 +28,7 @@ module.exports = {
         body: '#F8C7B6',
       },
       backgroundImage: {
-       
-
+        'hero': "url('https://intrex.pl/wp-content/uploads/2023/02/Rectangle-1.jpg')",
       },
       keyframes: {
         flip: {

@@ -26,7 +26,7 @@ Drukarki Domino optymalne do kodowania jaj zgodnie z Moba</div></div>
       </div>
       <div className='grid mx-2 cursor-pointer'>
       <div><BsFillRocketTakeoffFill className='text-3xl ml-3'></BsFillRocketTakeoffFill></div>
-      <div>Kariera</div>
+      <div className=''>Kariera</div>
       </div>
       <div className='grid mx-2 cursor-pointer'>
       <div><BsFillTelephoneFill className='text-3xl ml-4'></BsFillTelephoneFill></div>
