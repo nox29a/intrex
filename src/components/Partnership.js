@@ -40,15 +40,10 @@ const Partnership = () => {
               className={selectedId === "sic" ? "" : "hidden"}
             >
               <div>
-                asdasdasdasdasdasdnia, ale także producent oraz dostawca
-                komponentów dla Domino. Intrex od zawsze imponował bardzo dużym
-                zaangażowaniem i niezwykle profesjonalnym podejściem w relacjach
-                z klientami. Wsparcie techniczne i serwis szczególnie zasługują
-                na największe uznanie. Mamy nadzieję, że nasza współpraca będzie
-                dalej rozwijana i kontynuowana przez lata.
+              Przez ostatnie 15 lat zbudowaliśmy bardzo solidną więź z firmą Intrex. Dzięki nim możemy pochwalić się wieloma sukcesami: HUF, SAFRAN GROUP i wiele innych. Działamy i myślimy podobnie, co w rezultacie przekłada się na zdobycie zaufania wielu klientów. Intrex pomógł naszej firmie w budowaniu pozycji na rynku, posługując się naszymi wspólnymi wartościami, jakimi są: sprawność operacyjna, innowacyjność, zorientowanie na potrzeby klienta. To podejście pozwala nam na ciągły, globalny rozwój.
               </div>
               <div className="font-semibold pt-3">
-                asdasdasdasdasdsfasfasfasdasdasdaager (C&E.Europe)
+              Ihab DALATI - Area Sales Manager
               </div>
             </div>
           </div>
@@ -63,13 +58,13 @@ const Partnership = () => {
             </div>
             <div
               onClick={() => handleDivClick("sic")}
-              className={`w-1/4 p-3 rounded-xl border h-20 flex justify-center items-center hover:scale-110 shadow-xl transform transition duration-500 ${
+              className={`w-1/4 p-3 rounded-xl border h-20 flex overflow-hidden justify-center items-center hover:scale-110 shadow-xl transform transition duration-500 ${
                 selectedId === "sic" ? "border-red-600" : ""
               }`}
             >
-              <img src="https://intrex.pl/wp-content/uploads/2023/03/Projekt-bez-tytulu-17.png" alt="SIC"></img>
+              <img src="https://intrex.pl/wp-content/uploads/2023/03/group-4-1.png" alt="SIC"></img>
             </div>
-            {/* Dodaj kolejne divy i obsługę ich kliknięć w podobny sposób */}
+            
           </div>
         </div>
       </div>
