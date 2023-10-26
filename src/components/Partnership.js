@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Partnership = () => {
-  const [selectedId, setSelectedId] = useState(null);
+  const [selectedId, setSelectedId] = useState("sic");
 
   const handleDivClick = (id) => {
     setSelectedId(id);
